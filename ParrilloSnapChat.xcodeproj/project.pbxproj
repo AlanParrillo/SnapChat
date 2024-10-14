@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		422A40142CBDD34200317DBB /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 422A40132CBDD34200317DBB /* FirebaseAnalytics */; };
+		422A40162CBDD34200317DBB /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 422A40152CBDD34200317DBB /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		422A40182CBDD34200317DBB /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 422A40172CBDD34200317DBB /* FirebaseAuth */; };
+		422A401A2CBDD34200317DBB /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 422A40192CBDD34200317DBB /* FirebaseDatabase */; };
+		422A401C2CBDD34200317DBB /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 422A401B2CBDD34200317DBB /* FirebaseStorage */; };
 		42B3F2842CBDC8F1002308DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B3F2832CBDC8F1002308DA /* AppDelegate.swift */; };
 		42B3F2862CBDC8F1002308DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B3F2852CBDC8F1002308DA /* SceneDelegate.swift */; };
-		42B3F2882CBDC8F1002308DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B3F2872CBDC8F1002308DA /* ViewController.swift */; };
+		42B3F2882CBDC8F1002308DA /* iniciarSesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B3F2872CBDC8F1002308DA /* iniciarSesionViewController.swift */; };
 		42B3F28B2CBDC8F1002308DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42B3F2892CBDC8F1002308DA /* Main.storyboard */; };
 		42B3F28D2CBDC8F3002308DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42B3F28C2CBDC8F3002308DA /* Assets.xcassets */; };
 		42B3F2902CBDC8F3002308DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42B3F28E2CBDC8F3002308DA /* LaunchScreen.storyboard */; };
 		42B3F29B2CBDC8F3002308DA /* ParrilloSnapChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B3F29A2CBDC8F3002308DA /* ParrilloSnapChatTests.swift */; };
 		42B3F2A52CBDC8F3002308DA /* ParrilloSnapChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B3F2A42CBDC8F3002308DA /* ParrilloSnapChatUITests.swift */; };
 		42B3F2A72CBDC8F3002308DA /* ParrilloSnapChatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B3F2A62CBDC8F3002308DA /* ParrilloSnapChatUITestsLaunchTests.swift */; };
+		42B3F2B42CBDCCFC002308DA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42B3F2B32CBDCCFC002308DA /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +45,7 @@
 		42B3F2802CBDC8F1002308DA /* ParrilloSnapChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParrilloSnapChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42B3F2832CBDC8F1002308DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42B3F2852CBDC8F1002308DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		42B3F2872CBDC8F1002308DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42B3F2872CBDC8F1002308DA /* iniciarSesionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iniciarSesionViewController.swift; sourceTree = "<group>"; };
 		42B3F28A2CBDC8F1002308DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42B3F28C2CBDC8F3002308DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42B3F28F2CBDC8F3002308DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,7 @@
 		42B3F2A02CBDC8F3002308DA /* ParrilloSnapChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParrilloSnapChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42B3F2A42CBDC8F3002308DA /* ParrilloSnapChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParrilloSnapChatUITests.swift; sourceTree = "<group>"; };
 		42B3F2A62CBDC8F3002308DA /* ParrilloSnapChatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParrilloSnapChatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		42B3F2B32CBDCCFC002308DA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +63,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				422A40142CBDD34200317DBB /* FirebaseAnalytics in Frameworks */,
+				422A40182CBDD34200317DBB /* FirebaseAuth in Frameworks */,
+				422A401A2CBDD34200317DBB /* FirebaseDatabase in Frameworks */,
+				422A401C2CBDD34200317DBB /* FirebaseStorage in Frameworks */,
+				422A40162CBDD34200317DBB /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,9 +111,10 @@
 		42B3F2822CBDC8F1002308DA /* ParrilloSnapChat */ = {
 			isa = PBXGroup;
 			children = (
+				42B3F2B32CBDCCFC002308DA /* GoogleService-Info.plist */,
 				42B3F2832CBDC8F1002308DA /* AppDelegate.swift */,
 				42B3F2852CBDC8F1002308DA /* SceneDelegate.swift */,
-				42B3F2872CBDC8F1002308DA /* ViewController.swift */,
+				42B3F2872CBDC8F1002308DA /* iniciarSesionViewController.swift */,
 				42B3F2892CBDC8F1002308DA /* Main.storyboard */,
 				42B3F28C2CBDC8F3002308DA /* Assets.xcassets */,
 				42B3F28E2CBDC8F3002308DA /* LaunchScreen.storyboard */,
@@ -143,6 +156,13 @@
 			dependencies = (
 			);
 			name = ParrilloSnapChat;
+			packageProductDependencies = (
+				422A40132CBDD34200317DBB /* FirebaseAnalytics */,
+				422A40152CBDD34200317DBB /* FirebaseAnalyticsWithoutAdIdSupport */,
+				422A40172CBDD34200317DBB /* FirebaseAuth */,
+				422A40192CBDD34200317DBB /* FirebaseDatabase */,
+				422A401B2CBDD34200317DBB /* FirebaseStorage */,
+			);
 			productName = ParrilloSnapChat;
 			productReference = 42B3F2802CBDC8F1002308DA /* ParrilloSnapChat.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +235,9 @@
 				Base,
 			);
 			mainGroup = 42B3F2772CBDC8F1002308DA;
+			packageReferences = (
+				422A40122CBDD34200317DBB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 42B3F2812CBDC8F1002308DA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42B3F2902CBDC8F3002308DA /* LaunchScreen.storyboard in Resources */,
+				42B3F2B42CBDCCFC002308DA /* GoogleService-Info.plist in Resources */,
 				42B3F28D2CBDC8F3002308DA /* Assets.xcassets in Resources */,
 				42B3F28B2CBDC8F1002308DA /* Main.storyboard in Resources */,
 			);
@@ -258,7 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42B3F2882CBDC8F1002308DA /* ViewController.swift in Sources */,
+				42B3F2882CBDC8F1002308DA /* iniciarSesionViewController.swift in Sources */,
 				42B3F2842CBDC8F1002308DA /* AppDelegate.swift in Sources */,
 				42B3F2862CBDC8F1002308DA /* SceneDelegate.swift in Sources */,
 			);
@@ -598,6 +622,46 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		422A40122CBDD34200317DBB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = versionRange;
+				maximumVersion = 10.0.0;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		422A40132CBDD34200317DBB /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 422A40122CBDD34200317DBB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		422A40152CBDD34200317DBB /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 422A40122CBDD34200317DBB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		422A40172CBDD34200317DBB /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 422A40122CBDD34200317DBB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		422A40192CBDD34200317DBB /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 422A40122CBDD34200317DBB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		422A401B2CBDD34200317DBB /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 422A40122CBDD34200317DBB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 42B3F2782CBDC8F1002308DA /* Project object */;
 }
